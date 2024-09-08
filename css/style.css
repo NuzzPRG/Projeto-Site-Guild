@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
+* {
+    margin: auto;
+    padding: 0px;
+    font-family: var(--fonte-destaque);
+}
+
+body {
+    background-attachment: fixed;
+    background-image: radial-gradient(circle, #161616e0, #0D0D0D);
+}
+
+header > h1 {
+    font-size: 45px;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.808);
+}
+
+header {
+    background-image: linear-gradient(to bottom, #161616e0, #0D0D0D);
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: #F2F2F2;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+#menu > a {
+    font-size: 20px;
+    text-align: center;
+    transition-duration: .5s;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0px 50px;
+}
+
+#menu > a:hover {
+    background-color: #F29D52;
+    color: black;
+    border-radius: 5px;
+}
+
+nav {
+    font-weight: 400;
+    background-color: #0D0D0D;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.397);
+}
+
+main {
+    background-color: aliceblue;
+    margin: auto;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.397);
+}
+
+main img {
+    width: 100%;
+}
+
+main h2 {
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.808);
+    margin: 6px;
+    font-size: 28px;
+}
+
+h2#principal {
+    text-align: center;
+}
+
+main p {
+    padding: 5px;
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    text-align: justify;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    background: #16161677;
+    text-align: center;
+}
+
+.discord {
+    color: rgba(0, 0, 255, 0.514);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.discord:hover {
+    padding-right: 0px;
+    padding-left: 5px;
+    margin-right: 2px;
+    background-color: #daa000;
+    color: black;
+    border-radius: 5px;
+    transition-duration: .5s;
+
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+iframe {
+    max-width: 100%;
+    min-width: 200px;
+}
+
+#imgprinc {
+    border-radius: 0px 0px 5px 5px;
+    max-width: 1000px;
+    min-width: 300px;
+}
+
+strong {
+    font-size: 20px;
+}
