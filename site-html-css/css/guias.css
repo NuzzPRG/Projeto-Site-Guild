@@ -22,9 +22,24 @@ body {
     background-attachment: fixed;
 }
 
+div#cabecalho {
+    color: goldenrod;
+    text-shadow: 0px 1px 1px rgb(252, 252, 252);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+    padding: 15px;
+}
+
 img {
+    border-radius: 3px;
     width: 100%;
     vertical-align: top;
+}
+
+img:hover {
+    background-color: #000;
 }
 
 div#lateral {
@@ -49,11 +64,13 @@ aside {
 }
 
 aside nav {
-    background: #fff;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.800);
     width: 65%;
 }
 
 aside nav h2 {
+    color: gainsboro;
     padding: 16px;
 }
 
@@ -64,29 +81,56 @@ aside nav ul {
     padding: 16px;
 }
 
+aside nav ul li a {
+    color: goldenrod;
+}
+
+aside nav ul li a:hover {
+    padding-right: 2px;
+    padding-left: 0px;
+    margin-right: 2px;
+    background-color: goldenrod;
+    color: black;
+    border-radius: 5px;
+    transition-duration: 0.7s;
+}
+
 article#articleDg {
     border-radius: 5px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.800);
     width: 50%;
     height: 50%;
     border: 1px solid black;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 2px 2px 5px black;
     margin: 30px 0 15px 0;
+    padding: 5px;
+}
+
+#content {
+    color: rgb(218, 165, 32);
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
 article#articleLeveling {
     border-radius: 5px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.800);
     width: 50%;
     height: 50%;
     border: 1px solid black;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 2px 2px 5px black;
     margin: 15px 25% 30px 25%;
+    padding: 5px;
 }
 
 article>h1 {
     color: goldenrod;
     text-align: center;
+    text-shadow: 1px 1px 3px rgba(255, 174, 0, 0.651);
+}
+
+nav h2 {
+    background-color: rgba(218, 165, 32, 0.596);
 }
 
 nav ul {
