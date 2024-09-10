@@ -1,5 +1,7 @@
 @charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=SUSE:wght@100..800&display=swap');
 
 :root {
@@ -38,10 +40,6 @@ img {
     vertical-align: top;
 }
 
-img:hover {
-    background-color: #000;
-}
-
 div#lateral {
     display: flex;
     justify-content: center;
@@ -50,11 +48,6 @@ div#lateral {
 div#lateral > div {
     width: 25%;
 }  
-
-#random {
-    display: flex;
-    justify-content: center;
-}
 
 aside {
     display: flex;
