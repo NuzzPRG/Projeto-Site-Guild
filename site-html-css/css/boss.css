@@ -94,6 +94,10 @@ p {
     color: #76ABB9;
 }
 
+main h1, h2 {
+    font-family: var(--fonte-boss);
+}
+
 h2, h3 {
     padding-top: 10px;
     padding-bottom: 10px;
