@@ -137,6 +137,24 @@ div.karnix>iframe {
     height: 90%;
 }
 
+.cursed2 {
+    margin-top: 15px;
+}
+
+.finalboss {
+    color: #76ABB9;
+    margin-left: 25px;
+}
+
+.finalboss > li {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.finalboss > li::marker {
+    color: #76ABB9;
+}
+
 nav#lista {
     border-radius: 5px;
     height: 300px;
