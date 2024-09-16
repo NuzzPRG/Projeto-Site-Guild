@@ -141,18 +141,23 @@ div.karnix>iframe {
     margin-top: 15px;
 }
 
-.finalboss {
+#finalboss {
+    font-family: var(--font-title);
     color: #76ABB9;
     margin-left: 25px;
 }
 
-.finalboss > li {
-    font-size: 18px;
+#finalboss > li {
+    font-size: 16px;
     margin-top: 10px;
 }
 
-.finalboss > li::marker {
+#finalboss > li::marker {
     color: #76ABB9;
+}
+
+#furia {
+    color: whitesmoke;
 }
 
 nav#lista {
@@ -206,6 +211,21 @@ aside nav ul li>a:hover {
 
 li::marker {
     color: red;
+}
+
+#tier1 {
+    font-style: italic;
+}
+
+@media (max-width: 375px) {  
+    div.karnix {
+        padding: 20px 0px 194.5px 20px;
+        margin-right: 10px;
+    }
+
+    #finalboss > li {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 1300px) {
