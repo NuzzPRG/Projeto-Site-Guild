@@ -233,27 +233,62 @@ li::marker {
     }
 }
 
-@media (max-width: 600px) {
-    #menu a {
-        font-size: 14px;
-    }
-}
-
 @media (max-width: 500px) {
+    header {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+
+    #menu {
+        width: 100%;
+    }
+
     #menu a {
-        font-size: 12px;
+        font-size: 16px;
         margin: 25px;
     }
 
+    article#title {
+        max-width: 100%;
+        border-radius: 0px;
+        margin: 0%;
+    }
+
     aside {
-        width: 90%;
+        width: 50%;
     }
 }
 
-@media (max-width: 374px) {
-    #menu a {
-        color: #daa000;
-        width: 10px;
+@media (max-width: 375px) {
+    header {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    #menu > a {
+        padding: 5px;
+    }
+    article#title {
+        border-radius: 0px;
+    }
+    aside {
+        width: 95%;
+    }
+    div.karnix {
+        padding: 20px 0px 194.5px 20px;
+        margin-right: 10px;
     }
 }
 
+@media (max-width: 600px) {
+    aside {
+        width: 62%;
+    }
+
+}
+
+@media (max-width: 500px) {
+    aside {
+        width: 75%;
+    }
+
+}
