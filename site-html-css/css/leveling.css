@@ -45,6 +45,7 @@ nav {
     text-align: center;
     transition-duration: .5s;
     font-weight: bold;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     padding: 15px;
@@ -107,54 +108,9 @@ img {
     object-fit: cover;
 }
 
-.drops {
-    text-decoration: none;
-    color: gold;
-    transition-duration: .5s;
-}
-
-.drops:hover {
-    background-color: #f5a91c;
-    color: black;
-    border-radius: 5px;
-}
-
-div.karnix {
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    position: relative;
-    padding-bottom: 56.6%;
-}
-
-div.karnix>iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-}
-
-.cursed2 {
-    margin-top: 15px;
-}
-
-#finalboss {
-    font-family: var(--font-title);
-    color: #76ABB9;
-    margin-left: 25px;
-}
-
-#finalboss > li {
-    font-size: 14px;
-    margin-top: 10px;
-}
-
-#finalboss > li::marker {
-    color: #76ABB9;
-}
-
-#furia {
-    color: whitesmoke;
+img.idk {
+    width: 40%;
+    background-size: cover;
 }
 
 nav#lista {
@@ -210,8 +166,33 @@ li::marker {
     color: red;
 }
 
-#tier1 {
-    font-style: italic;
+#finalboss {
+    font-family: var(--font-title);
+    color: #76ABB9;
+    margin-left: 25px;
+}
+
+#finalboss > li {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#finalboss > li::marker {
+    color: #76ABB9;
+}
+
+a {
+    color: #daa000;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-color: #f5a91c;
+    color: black;
+    border-radius: 5px;
 }
 
 @media (max-width: 1300px) {
@@ -220,7 +201,7 @@ li::marker {
     }    
 }
 
-@media (max-width: 882px) {
+@media (max-width: 1230px) {
     #container {
         flex-direction: column;
         align-items: center;
@@ -233,27 +214,75 @@ li::marker {
     }
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 742px) {
     #menu a {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    aside {
+        width: 50%;
+    }
+}
+
+@media (max-width: 700px) {
+    aside {
+        width: 50%;
     }
 }
 
 @media (max-width: 500px) {
+    header {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+
+    #menu {
+        width: 100%;
+    }
+
     #menu a {
-        font-size: 12px;
+        font-size: 16px;
         margin: 25px;
     }
 
+    article#title {
+        max-width: 100%;
+        border-radius: 0px;
+        margin: 0%;
+    }
+
     aside {
-        width: 90%;
+        width: 50%;
     }
 }
 
-@media (max-width: 374px) {
-    #menu a {
-        color: #daa000;
-        width: 10px;
+@media (max-width: 375px) {
+    header {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    #menu > a {
+        padding: 5px;
+    }
+    article#title {
+        border-radius: 0px;
+    }
+    aside {
+        width: 95%;
     }
 }
 
+@media (max-width: 600px) {
+    aside {
+        width: 62%;
+    }
+
+}
+
+@media (max-width: 500px) {
+    aside {
+        width: 75%;
+    }
+
+}
